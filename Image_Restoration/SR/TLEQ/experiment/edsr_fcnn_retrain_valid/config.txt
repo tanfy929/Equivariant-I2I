@@ -1,0 +1,2246 @@
+2024-12-26-12:05:28
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-12:12:39
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-12:12:55
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-12:14:36
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-12:16:43
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_plus
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-12:19:15
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-12:20:03
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-13:28:16
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-13:40:46
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-13:45:51
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-13:46:10
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-13:47:22
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-13:51:33
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-13:51:58
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-14:00:15
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-14:04:32
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-14:08:39
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-14:49:34
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-14:52:59
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-14:53:38
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-14:56:26
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-14:57:57
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-14:59:05
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-15:00:03
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-15:01:27
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-15:02:33
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-15:03:01
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-15:03:45
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-15:03:58
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-15:07:58
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-26-15:10:34
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['DIV2K', 'Set5']
+data_range: 1-800/801-810
+ext: sep
+scale: [2]
+patch_size: 96
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 150
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: False
+gan_k: 1
+lr: 0.0001
+decay: 100
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: edsr_fcnn_retrain_valid
+load: 
+resume: 0
+save_models: False
+print_every: 100
+save_results: False
+save_gt: False
+save_mat: False
+ssim: False
+
+2024-12-27-10:47:58
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['Urban100', 'B100', 'Set14', 'Set5']
+data_range: 1-800/801-900
+ext: sep
+scale: [2]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_plus
+kernel_size: 5
+act: relu
+pre_train: ../experiment/edsr_fcnn_retrain_valid/model/model_best.pt
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 300
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: True
+gan_k: 1
+lr: 0.0001
+decay: 200
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ../experiment/edsr_fcnn_retrain_valid/
+load: 
+resume: 1
+save_models: False
+print_every: 100
+save_results: True
+save_gt: False
+save_mat: False
+save_psnr: True
+ssim: True
+
+2024-12-27-10:52:03
+
+debug: False
+template: .
+n_threads: 6
+cpu: False
+device: 4
+n_GPUs: 1
+seed: 1
+dir_data: ../../Data
+dir_demo: ../test
+data_train: ['DIV2K']
+data_test: ['Urban100', 'B100', 'Set14', 'Set5']
+data_range: 1-800/801-900
+ext: sep
+scale: [2]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+chop: False
+no_augment: False
+model: edsr_newbconv
+kernel_size: 5
+act: relu
+pre_train: ../experiment/edsr_fcnn_retrain_valid/model/model_best.pt
+extend: .
+n_resblocks: 16
+n_feats: 32
+res_scale: 0.1
+shift_mean: True
+dilation: False
+precision: single
+tranNum: 8
+ini_scale: 1.0
+G0: 64
+RDNkSize: 3
+RDNconfig: B
+n_resgroups: 10
+reduction: 16
+reset: False
+test_every: 1000
+epochs: 300
+batch_size: 16
+split_batch: 1
+self_ensemble: False
+test_only: True
+gan_k: 1
+lr: 0.0001
+decay: 200
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+gclip: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ../experiment/edsr_fcnn_retrain_valid/
+load: 
+resume: 1
+save_models: False
+print_every: 100
+save_results: True
+save_gt: False
+save_mat: False
+save_psnr: True
+ssim: True
+

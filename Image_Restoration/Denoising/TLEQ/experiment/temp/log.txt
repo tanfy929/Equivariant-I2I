@@ -1,0 +1,1791 @@
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+[1600/16000]	[L1: 17.3711]	27.7+1.6s
+[3200/16000]	[L1: 13.5415]	27.7+1.3s
+[4800/16000]	[L1: 12.0780]	27.5+1.4s
+[6400/16000]	[L1: 11.2357]	27.7+1.3s
+[8000/16000]	[L1: 10.7100]	27.9+1.3s
+[9600/16000]	[L1: 10.3431]	27.5+1.4s
+[11200/16000]	[L1: 10.0398]	27.4+1.4s
+[12800/16000]	[L1: 9.8281]	27.5+1.4s
+[14400/16000]	[L1: 9.6563]	27.3+1.4s
+[16000/16000]	[L1: 9.4759]	27.2+1.5s
+
+Evaluation:
+[DIV2K x1]	PSNR: nan (Best: nan @epoch 1)
+Forward: 0.15s
+
+Saving...
+Total: 0.58s
+
+[Epoch 2]	Learning rate: 5.00e-4
+[1600/16000]	[L1: 7.9491]	26.8+1.8s
+[3200/16000]	[L1: 7.7951]	26.7+1.6s
+[4800/16000]	[L1: 7.8023]	27.0+1.5s
+[6400/16000]	[L1: 7.7656]	27.2+1.4s
+[8000/16000]	[L1: 7.7629]	27.1+1.5s
+[9600/16000]	[L1: 7.7577]	27.1+1.5s
+[11200/16000]	[L1: 7.7077]	27.2+1.5s
+[12800/16000]	[L1: 7.7011]	27.1+1.5s
+[14400/16000]	[L1: 7.6699]	27.1+1.5s
+[16000/16000]	[L1: 7.6474]	27.0+1.5s
+
+Evaluation:
+[DIV2K x1]	PSNR: nan (Best: nan @epoch 1)
+Forward: 0.09s
+
+Saving...
+Total: 0.44s
+
+[Epoch 3]	Learning rate: 5.00e-4
+[1600/16000]	[L1: 7.4768]	26.9+1.7s
+[3200/16000]	[L1: 7.2849]	26.8+1.6s
+[4800/16000]	[L1: 7.3417]	26.9+1.6s
+[6400/16000]	[L1: 7.3379]	26.9+1.6s
+[8000/16000]	[L1: 7.2864]	27.0+1.5s
+[9600/16000]	[L1: 7.2461]	26.9+1.6s
+[11200/16000]	[L1: 7.2399]	26.9+1.6s
+[12800/16000]	[L1: 7.2546]	26.9+1.6s
+[14400/16000]	[L1: 7.2181]	27.0+1.5s
+[16000/16000]	[L1: 7.2051]	26.9+1.5s
+
+Evaluation:
+[DIV2K x1]	PSNR: nan (Best: nan @epoch 1)
+Forward: 0.08s
+
+Saving...
+Total: 0.43s
+
+[Epoch 4]	Learning rate: 5.00e-4
+[1600/16000]	[L1: 6.9571]	26.9+1.7s
+[3200/16000]	[L1: 7.0425]	26.9+1.6s
+[4800/16000]	[L1: 7.0772]	26.9+1.6s
+[6400/16000]	[L1: 7.0435]	26.9+1.6s
+[8000/16000]	[L1: 7.0207]	26.8+1.6s
+[9600/16000]	[L1: 6.9859]	26.8+1.6s
+[11200/16000]	[L1: 6.9759]	26.9+1.6s
+[12800/16000]	[L1: 7.0218]	26.9+1.6s
+[14400/16000]	[L1: 7.0203]	26.9+1.6s
+[16000/16000]	[L1: 7.0192]	26.9+1.6s
+
+Evaluation:
+[DIV2K x1]	PSNR: nan (Best: nan @epoch 1)
+Forward: 0.07s
+
+Saving...
+Total: 0.40s
+
+[Epoch 5]	Learning rate: 5.00e-4
+[1600/16000]	[L1: 6.7853]	26.9+1.7s
+[3200/16000]	[L1: 6.9615]	27.0+1.6s
+[4800/16000]	[L1: 6.8735]	26.9+1.6s
+[6400/16000]	[L1: 6.8849]	27.0+1.5s
+[8000/16000]	[L1: 6.8561]	26.8+1.6s
+[9600/16000]	[L1: 6.8561]	26.8+1.6s
+[11200/16000]	[L1: 6.8499]	26.9+1.6s
+[12800/16000]	[L1: 6.8419]	26.8+1.6s
+[14400/16000]	[L1: 6.8252]	26.9+1.6s
+[16000/16000]	[L1: 6.8116]	26.8+1.6s
+
+Evaluation:
+[DIV2K x1]	PSNR: nan (Best: nan @epoch 1)
+Forward: 0.09s
+
+Saving...
+Total: 0.45s
+
+[Epoch 6]	Learning rate: 5.00e-4
+[1600/16000]	[L1: 6.9317]	26.9+1.7s
+[3200/16000]	[L1: 6.8526]	26.8+1.6s
+[4800/16000]	[L1: 6.7869]	26.8+1.6s
+[6400/16000]	[L1: 6.7537]	26.9+1.6s
+[8000/16000]	[L1: 6.7739]	26.9+1.6s
+[9600/16000]	[L1: 6.7995]	26.8+1.6s
+[11200/16000]	[L1: 6.7827]	26.8+1.6s
+[12800/16000]	[L1: 6.7854]	26.8+1.6s
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+[1600/16000]	[L1: 16.6958]	27.3+1.7s
+[3200/16000]	[L1: 12.9645]	26.9+1.6s
+[4800/16000]	[L1: 11.6452]	27.0+1.5s
+[6400/16000]	[L1: 10.8642]	26.9+1.6s
+[8000/16000]	[L1: 10.3678]	26.9+1.5s
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+[1600/16000]	[L1: 17.3476]	27.5+1.6s
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+[1600/16000]	[L1: 16.9448]	27.3+1.7s
+[3200/16000]	[L1: 13.3888]	27.0+1.5s
+[4800/16000]	[L1: 12.1751]	27.0+1.6s
+[6400/16000]	[L1: 11.3005]	27.0+1.6s
+[8000/16000]	[L1: 10.7577]	27.0+1.6s
+[9600/16000]	[L1: 10.3338]	27.0+1.6s
+[11200/16000]	[L1: 10.0431]	27.0+1.6s
+[12800/16000]	[L1: 9.8332]	27.0+1.6s
+[14400/16000]	[L1: 9.6508]	27.0+1.6s
+[16000/16000]	[L1: 9.4681]	27.0+1.6s
+
+Evaluation:
+[DIV2K x1]	PSNR: nan (Best: nan @epoch 1)
+Forward: 0.08s
+
+Saving...
+Total: 0.50s
+
+[Epoch 2]	Learning rate: 5.00e-4
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+[1600/16000]	[L1: 14.2781]	27.7+1.6s
+[3200/16000]	[L1: 11.7529]	27.2+1.4s
+[4800/16000]	[L1: 10.8207]	27.3+1.5s
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+EDSR_plus(
+  (sub_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (add_mean): MeanShift(3, 3, kernel_size=(1, 1), stride=(1, 1))
+  (head): Sequential(
+    (0): Fconv_PCA()
+  )
+  (body): Sequential(
+    (0): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (1): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (2): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (3): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (4): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (5): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (6): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (7): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (8): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (9): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (10): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (11): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (12): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (13): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (14): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+    (15): ResBlock(
+      (body): Sequential(
+        (0): Fconv_PCA()
+        (1): ReLU(inplace=True)
+        (2): Fconv_PCA()
+      )
+    )
+  )
+  (tail): Sequential(
+    (0): Fconv_PCA()
+    (1): Fconv_PCA_out()
+  )
+)
+[Epoch 1]	Learning rate: 5.00e-4
+[1600/16000]	[L1: 17.9568]	27.6+1.5s
+[3200/16000]	[L1: 13.7361]	27.4+1.3s
+[4800/16000]	[L1: 12.1738]	27.2+1.3s
+[6400/16000]	[L1: 11.2638]	27.2+1.4s
+[8000/16000]	[L1: 10.7216]	27.0+1.5s
+[9600/16000]	[L1: 10.3556]	27.4+1.3s
+[11200/16000]	[L1: 10.0335]	26.9+1.5s
+[12800/16000]	[L1: 9.7934]	26.7+1.6s
+[14400/16000]	[L1: 9.6252]	26.8+1.5s
+[16000/16000]	[L1: 9.4626]	27.1+1.4s
+
+Evaluation:
+[DIV2K x1]	PSNR: 27.744 (Best: 27.744 @epoch 1)
+Forward: 44.47s
+
+Saving...
+Total: 44.92s
+
+[Epoch 2]	Learning rate: 5.00e-4
+[1600/16000]	[L1: 7.9350]	26.9+1.7s
+[3200/16000]	[L1: 7.7871]	26.9+1.5s
+[4800/16000]	[L1: 7.7384]	26.9+1.5s
